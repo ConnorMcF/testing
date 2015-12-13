@@ -18,6 +18,5 @@ php:
   # aliased to a recent 7.x version
   - 7.0
   # aliased to a recent hhvm version
-  - hhvm
-
-script: phpunit --ignore-configuration --coverage-text
+  
+script: phpunit --configuration phpunit.xml
